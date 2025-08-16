@@ -1,35 +1,28 @@
-A Streamlit-based Python project built using Object-Oriented Programming (OOPs) concepts for managing restaurant menus and customer orders.
+🍴 Menu Management System
 
- Features
+This is a Python project built with Streamlit that allows both Admins and Customers to manage and interact with a restaurant’s menu.
+It is designed using Object-Oriented Programming (OOPs) principles, making the code modular, reusable, and easy to extend.
 
-Admin Mode 
+🚀 Features
+👨‍💼 Admin Mode
 
-Add, remove, or update menu items
-
-Mark items as available/unavailable
-
+Add new menu itemsUpdate or remove existing items
+Mark items as Available/Unavailable
 Manage large menus (50+ items supported)
 
-Customer Mode 
+👩‍🍳 Customer Mode
 
-Search menu items quickly 
+Search items directly using a search box 🔍
+Add items with desired quantity to the cart
+Get a detailed order summary and bill
+Friendly error handling (e.g., "Item not available, please select another")
 
-Add items to cart with quantity selection
+🎉 Special Discounts
 
-Order summary with detailed bill generation
+10% discount if the bill is above ₹2500
+Discounts available only on Sundays & Wednesdays
 
-Smart error handling (e.g., item not available → friendly message shown)
-
-Special Discounts 
-
-10% discount on orders above ₹2500
-
-Discount available only on Sundays & Wednesdays
-
-Tech Stack
-
-Python 3
-
-Streamlit – for interactive UI
-
-OOPs Concepts – classes for Menu, Item, and Order
+🛠️ Tech Stack
+Python 3.x
+Streamlit → for interactive web UI
+OOPs Concepts → for Menu, Item, and Order classes
